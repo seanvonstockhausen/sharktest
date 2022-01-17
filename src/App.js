@@ -102,18 +102,18 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
+    CONTRACT_ADDRESS: "0x5f2d5Fc33DC56d55c4B2A98Ef1017382C005AB9F",
     SCAN_LINK: "",
     NETWORK: {
-      NAME: "",
-      SYMBOL: "",
-      ID: 0,
+      NAME: "Rinkeby",
+      SYMBOL: "ETH",
+      ID: 4,
     },
-    NFT_NAME: "",
-    SYMBOL: "",
+    NFT_NAME: "Shark Deck",
+    SYMBOL: "SDNT",
     MAX_SUPPLY: 1,
     WEI_COST: 0,
-    DISPLAY_COST: 0,
+    DISPLAY_COST: 0.1,
     GAS_LIMIT: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
